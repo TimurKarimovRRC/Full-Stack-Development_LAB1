@@ -3,14 +3,17 @@
 }
 
 body {
-    display: block;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 24px;
+    margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.5;
     color: #1f2937;
     background-color: #f3f4f6;
+}
+
+#root {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
 }
 
 .site-header {
@@ -44,7 +47,7 @@ main {
 
 .department {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: white;
     border: 1px solid #d1d5db;
     border-radius: 8px;
 }
